@@ -17,6 +17,12 @@ npm run build
 # run end-to-end tests
 npm test
 
+# build exe
+npx @electron-forge/cli import
+npm run make
+
+# 生成文件夹
+out/
 
 ```
 
